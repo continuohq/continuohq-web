@@ -3,7 +3,7 @@ title: "İşletmeniz ChatGPT ve Google'ın yapay zeka yanıtlarında nasıl gör
 seoTitle: "GEO Nedir? Yapay Zeka Aramalarında Görünmek"
 description: "ChatGPT, Gemini, Perplexity ve Google AI Overviews bilgiyi nereden alıyor? Küçük işletmeler için GEO'nun ne olduğunu, neyin işe yaradığını ve neyin abartıldığını anlattık."
 answer: "Yapay zeka aramalarında görünmenin yolu sağlam bir SEO temelinden geçer. Google, AI Overviews ve AI Mode için ek bir teknik şart olmadığını, dizine eklenmiş ve snippet ile gösterilebilen sayfaların uygun olduğunu söylüyor. ChatGPT ve Perplexity'nin arama botlarına izin verin, Bing'e kaydolun, İşletme Profilinizi güncel tutun ve özgün içerik yazın."
-date: 2026-10-16
+date: 2026-11-12
 draft: true
 faqs:
   - q: "GEO ile SEO arasındaki fark nedir?"
@@ -40,7 +40,9 @@ Her yapay zeka aracı web'e kendi yolundan ulaşıyor. Küçük bir işletme iç
 
 15 Mayıs 2026'da yayımlanan ayrı bir rehberde Google bir adım daha ileri gitti: kendi yapay zeka özellikleri temel sıralama ve kalite sistemlerinin üzerine kurulu olduğu için SEO geçerliliğini koruyor. Rehber, başka yerde bulunmayan özgün içeriği en önemli öneri olarak öne çıkarıyor ([Google Search Central Blog](https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing), [rehber](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)).
 
-**ChatGPT** tarafında OpenAI, arama sonuçları için OAI-SearchBot adlı tarayıcıyı kullanıyor. OpenAI'nin dokümanına göre bu bota robots.txt üzerinden kapalı olan siteler ChatGPT'nin arama yanıtlarında gösterilmiyor. Model eğitimi için kullanılan GPTBot ayrı bir bot. Yani içeriğinizin eğitimde kullanılmasını istemiyorsanız GPTBot'u engelleyip OAI-SearchBot'a izin verebilirsiniz.([OpenAI, Overview of OpenAI Crawlers](https://developers.openai.com/api/docs/bots)).
+Search Console'da bu özelliklerle ilgili bir ayar da var. Google, 31 Ağustos 2026 itibarıyla "Arama üretken yapay zeka kontrolü"nü dünya genelindeki tüm sitelere açtı. Ayarlar > Arama'da üretken yapay zeka bölümündeki bu kontrolle sitenizi AI Overviews, AI Mode ve Google Keşfet'teki üretken yapay zeka özelliklerine dahil edebilir ya da bunların dışında tutabilirsiniz. Varsayılan ayar "dahil et". Siteyi hariç tutarsanız bu özelliklerden gösterim ve trafik alamazsınız; normal arama sonuçları etkilenmez. Aynı sayfada, içeriğinizin bu özelliklerdeki performansını görmek için "üretken yapay zeka performans raporu" öneriliyor ([Google Search Console Yardım](https://support.google.com/webmasters/answer/16908024?hl=tr)).
+
+**ChatGPT** tarafında OpenAI, arama sonuçları için OAI-SearchBot adlı tarayıcıyı kullanıyor. OpenAI'nin dokümanına göre bu bota robots.txt üzerinden kapalı olan siteler ChatGPT'nin arama yanıtlarında gösterilmiyor. Model eğitimi için kullanılan GPTBot ayrı bir bot. Yani içeriğinizin eğitimde kullanılmasını istemiyorsanız GPTBot'u engelleyip OAI-SearchBot'a izin verebilirsiniz ([OpenAI, Overview of OpenAI Crawlers](https://developers.openai.com/api/docs/bots)).
 
 **Perplexity** de benzer bir ayrım yapıyor. PerplexityBot, siteleri Perplexity'nin arama sonuçlarında göstermek ve bağlantı vermek için tarıyor ve şirkete göre temel model eğitimi için kullanılmıyor ([Perplexity Docs](https://docs.perplexity.ai/docs/resources/perplexity-crawlers)).
 
@@ -65,6 +67,7 @@ Küçük bir işletme için bunun anlamı şu: yapay zeka yanıtında adınızı
 ## Küçük işletme siteleri için kontrol listesi
 
 - Google Search Console'a kaydolun, site haritanızı gönderin ve önemli sayfaların dizinde olduğunu kontrol edin.
+- Search Console'da Arama üretken yapay zeka kontrolünün "dahil et" konumunda olduğuna bakın; üretken yapay zeka performans raporunu ara ara inceleyin.
 - Bing Webmaster Tools'a kaydolun; siteniz destekliyorsa IndexNow'u açın.
 - robots.txt dosyanızda OAI-SearchBot ve PerplexityBot'un engellenmediğinden emin olun.
 - Google İşletme Profilinizi eksiksiz doldurun; adres, telefon ve saatleri her yerde aynı yazın.
@@ -81,6 +84,7 @@ Bu adımların teknik kısmını [Web Sitesi & Dijital Altyapı](/ai-donusumu/we
 - "AI features and your website", Google Search Central: [developers.google.com](https://developers.google.com/search/docs/appearance/ai-features)
 - "A new resource for optimizing for generative AI in Google Search", Google Search Central Blog, 15 Mayıs 2026: [developers.google.com](https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing)
 - "Optimizing your website for generative AI features on Google Search", Google Search Central, 2026: [developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+- "Arama üretken yapay zeka kontrolü", Google Search Console Yardım: [support.google.com](https://support.google.com/webmasters/answer/16908024?hl=tr)
 - "Overview of OpenAI Crawlers", OpenAI: [developers.openai.com](https://developers.openai.com/api/docs/bots)
 - "Perplexity Crawlers", Perplexity: [docs.perplexity.ai](https://docs.perplexity.ai/docs/resources/perplexity-crawlers)
 - "Introducing AI Performance in Bing Webmaster Tools Public Preview", Bing Webmaster Blog, 10 Şubat 2026: [blogs.bing.com](https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/)

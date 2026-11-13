@@ -3,7 +3,7 @@ title: "How does your business appear in ChatGPT and Google's AI answers? A GEO 
 seoTitle: "What Is GEO? Appearing in AI Search Results"
 description: "Where do ChatGPT, Gemini, Perplexity and Google AI Overviews get their information? What GEO is for small businesses, what works and what is overstated."
 answer: "Appearing in AI search starts with a solid SEO foundation. Google says AI Overviews and AI Mode have no extra technical requirements: pages that are indexed and eligible to be shown with a snippet qualify. Allow ChatGPT and Perplexity's search bots, register with Bing, keep your Business Profile up to date and write original content."
-date: 2026-10-16
+date: 2026-11-12
 tr: "yapay-zeka-aramalarinda-gorunmek-geo"
 draft: true
 faqs:
@@ -41,6 +41,8 @@ Each AI tool reaches the web by its own route. Here is the summary a small busin
 
 In separate guidance published on 15 May 2026, Google went a step further: because its own AI features are built on its core ranking and quality systems, SEO remains relevant. The guidance highlights original content that cannot be found elsewhere as its most important recommendation ([Google Search Central Blog](https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing), [guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)).
 
+Search Console also has a setting for these features. As of 31 August 2026, Google has rolled out the "Search generative AI control" to all websites worldwide. With this control, found under Settings > Search generative AI, you can include your site in AI Overviews, AI Mode and the generative AI features in Google Discover, or exclude it from them. The default is "include". If you exclude your site, you will not receive impressions or traffic from these features; regular search results are not affected. The same page recommends the Generative AI performance report for seeing how your content performs in these features ([Google Search Console Help](https://support.google.com/webmasters/answer/16908024?hl=en)).
+
 On the **ChatGPT** side, OpenAI uses a crawler called OAI-SearchBot for search results. According to OpenAI's documentation, sites that block this bot via robots.txt are not shown in ChatGPT's search answers. GPTBot, used for model training, is a separate bot. So if you do not want your content used for training, you can block GPTBot and allow OAI-SearchBot ([OpenAI, Overview of OpenAI Crawlers](https://developers.openai.com/api/docs/bots)).
 
 **Perplexity** makes a similar distinction. PerplexityBot crawls sites to show and link to them in Perplexity's search results and, according to the company, is not used to train foundation models ([Perplexity Docs](https://docs.perplexity.ai/docs/resources/perplexity-crawlers)).
@@ -66,6 +68,7 @@ For a small business, this means that being named in an AI answer may not bring 
 ## Checklist for small business websites
 
 - Register with Google Search Console, submit your sitemap and check that your important pages are indexed.
+- In Search Console, check that the Search generative AI control is set to "include", and look at the Generative AI performance report from time to time.
 - Register with Bing Webmaster Tools; turn on IndexNow if your site supports it.
 - Make sure your robots.txt file does not block OAI-SearchBot and PerplexityBot.
 - Complete your Google Business Profile in full; write your address, phone number and hours the same way everywhere.
@@ -82,6 +85,7 @@ We cover the technical side of these steps in more detail on our [Website & Digi
 - "AI features and your website", Google Search Central: [developers.google.com](https://developers.google.com/search/docs/appearance/ai-features)
 - "A new resource for optimizing for generative AI in Google Search", Google Search Central Blog, 15 May 2026: [developers.google.com](https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing)
 - "Optimizing your website for generative AI features on Google Search", Google Search Central, 2026: [developers.google.com](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+- "Search generative AI control", Google Search Console Help: [support.google.com](https://support.google.com/webmasters/answer/16908024?hl=en)
 - "Overview of OpenAI Crawlers", OpenAI: [developers.openai.com](https://developers.openai.com/api/docs/bots)
 - "Perplexity Crawlers", Perplexity: [docs.perplexity.ai](https://docs.perplexity.ai/docs/resources/perplexity-crawlers)
 - "Introducing AI Performance in Bing Webmaster Tools Public Preview", Bing Webmaster Blog, 10 February 2026: [blogs.bing.com](https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/)

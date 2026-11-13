@@ -3,7 +3,7 @@ title: "Güzellik salonu Instagram DM'lerine nasıl yetişir? Yapay zeka asistan
 seoTitle: "Güzellik Salonu için Instagram DM Otomatik Yanıt"
 description: "Fiyat soruları, randevu talepleri ve gelmeyen müşteriler. Güzellik merkezleri için Instagram DM otomatik yanıt, Meta'nın kuralları ve ekibe devir."
 answer: "Güzellik salonu, tekrarlayan DM'leri işletmeye özel bir yapay zeka asistanına devrederek yetişebilir. Asistan fiyat aralığı, uygun saat, adres ve hazırlık sorularını yanıtlar, randevuyu oluşturur. Instagram'da müşteri yazdıktan sonra çoğu durumda 24 saatlik bir yanıt penceresi vardır. Cilt reaksiyonu, tıbbi estetik ve şikâyet konuları her zaman ekibe devredilmelidir."
-date: 2026-10-11
+date: 2026-10-27
 draft: true
 faqs:
   - q: "Müşteriye bir asistanla yazıştığını söylemek gerekir mi?"
@@ -56,7 +56,9 @@ Instagram'da otomatik yanıt, Meta'nın Instagram mesajlaşma altyapısı üzeri
 
 Bu bilgiler Meta'nın geliştirici belgelerinden ([Instagram mesaj gönderme](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api), [Messenger Platformu ve Instagram mesajlaşma politikası](https://developers.facebook.com/documentation/business-messaging/messenger-platform/policy)) alındı. Meta, mesaj etiketlerinin onaylı kullanım alanları dışında kullanılmasının hesabın mesaj gönderme yetkisinin kısıtlanmasına yol açabileceğini de belirtiyor.
 
-İnsana devir için Meta iki yol tarif ediyor: ekibin yanıt verdiği bir gelen kutusu ya da konuşmayı bir uygulamadan diğerine aktaran devir protokolü (Handover Protocol). Pratikte bu, asistan devrettiğinde ekibinizin konuşmayı kaldığı yerden görmesi demek.
+İnsana devir için Meta iki yol tarif ediyor: ekibin yanıt verdiği bir gelen kutusu ya da konuşmayı bir uygulamadan diğerine aktaran konuşma yönlendirme (Conversation Routing). Meta, Instagram'da eski devir protokolünü (Handover Protocol) artık desteklemediğini ve tüm işletmeleri konuşma yönlendirmeye taşıdığını belirtiyor ([Instagram konuşma yönlendirme](https://developers.facebook.com/documentation/business-messaging/instagram-messaging/features/conversation-routing)). Pratikte bu, asistan devrettiğinde ekibinizin konuşmayı kaldığı yerden görmesi demek.
+
+Hesabınızda Meta'nın kendi yapay zekası (Meta Business AI) da açıksa bir ayara dikkat etmek gerekiyor. Meta Business AI'ın yürüttüğü bir konuşmayı başka bir uygulamanın devralmasına izin veren ayar varsayılan olarak kapalı. Bu durumda kendi asistanınız, Meta Business AI konuşmayı ona devredene kadar yanıt veremez. Hangi uygulamanın hangi konuşmaya yanıt vereceği Meta Business Suite'teki konuşma yönlendirme ayarlarından belirlenir.
 
 WhatsApp tarafındaki kuralları ayrıca [WhatsApp'ta yapay zeka asistanı kuralları](/blog/whatsapp-yapay-zeka-asistani-kurallari) yazımızda ele aldık.
 
@@ -92,6 +94,7 @@ Son madde, kurulumdan sonra neyin değiştiğini görmenin tek yolu. Ölçmeden 
 
 - Meta for Developers, "Send Messages", Instagram API with Instagram Login: [developers.facebook.com](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api)
 - Meta for Developers, "Messenger Platform and IG Messaging API policy": [developers.facebook.com](https://developers.facebook.com/documentation/business-messaging/messenger-platform/policy)
+- Meta for Developers, "Conversation Routing for Instagram", Instagram Messaging: [developers.facebook.com](https://developers.facebook.com/documentation/business-messaging/instagram-messaging/features/conversation-routing)
 - Meta for Developers, "Template fundamentals", WhatsApp Business Platform: [developers.facebook.com](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/overview)
 - WhatsApp Business Messaging Policy, WhatsApp: [whatsappbusiness.com](https://whatsappbusiness.com/policy/)
 - Hallsworth ve ark., "Stating Appointment Costs in SMS Reminders Reduces Missed Hospital Appointments: Findings from Two Randomised Controlled Trials", PLOS ONE, 2015: [journals.plos.org](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0137306)

@@ -3,7 +3,7 @@ title: "Where can dietitians use an AI assistant, and where should it stop?"
 seoTitle: "AI Assistants for Dietitians and Health Data Under KVKK"
 description: "AI assistants for dietitians and small clinics: booking and information tasks, topics to hand to the specialist, and KVKK rules on health data."
 answer: "An AI assistant for dietitians can take on admin tasks such as bookings, reminders, package and fee information, and briefing clients before the first consultation. Diagnosis, personalised diet plans, and medication and supplement questions should go to the dietitian. Health data is special category data under KVKK; the assistant should collect no more than necessary and meet the processing conditions."
-date: 2026-10-13
+date: 2026-11-04
 tr: "diyetisyen-klinik-yapay-zeka-asistani-kvkk"
 draft: true
 faqs:

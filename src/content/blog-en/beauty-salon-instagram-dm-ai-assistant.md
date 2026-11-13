@@ -3,7 +3,7 @@ title: "How can a beauty salon keep up with Instagram DMs? What can an AI assist
 seoTitle: "Instagram DM Auto-Replies for Beauty Salons"
 description: "Price questions, booking requests and no-shows. Instagram DM auto-replies for beauty salons, Meta's rules and handing over to your team."
 answer: "A beauty salon can keep up by handing repetitive DMs to an AI assistant built for the business. The assistant answers questions on price ranges, available times, the address and preparation, and creates the booking. On Instagram there is usually a 24-hour reply window after the customer writes. Skin reactions, medical aesthetics and complaints should always go to the team."
-date: 2026-10-11
+date: 2026-10-27
 tr: "guzellik-salonu-instagram-dm-yapay-zeka"
 draft: true
 faqs:
@@ -57,7 +57,9 @@ Automated replies on Instagram run through Meta's Instagram messaging infrastruc
 
 This information comes from Meta's developer documentation ([Instagram message sending](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api), [Messenger Platform and Instagram messaging policy](https://developers.facebook.com/documentation/business-messaging/messenger-platform/policy)). Meta also states that using message tags outside their approved use cases may lead to restrictions on the account's ability to send messages.
 
-For handing over to a person, Meta describes two routes: an inbox where the team replies, or the Handover Protocol, which passes the conversation from one app to another. In practice, this means that when the assistant hands over, your team sees the conversation where it left off.
+For handing over to a person, Meta describes two routes: an inbox where the team replies, or Conversation Routing, which passes the conversation from one app to another. Meta states that it no longer supports the older Handover Protocol on Instagram and has migrated all businesses to Conversation Routing ([Instagram Conversation Routing](https://developers.facebook.com/documentation/business-messaging/instagram-messaging/features/conversation-routing)). In practice, this means that when the assistant hands over, your team sees the conversation where it left off.
+
+If Meta's own AI (Meta Business AI) is also switched on for your account, one setting needs attention. The setting that lets another app take over a conversation run by Meta Business AI is off by default. In that case your own assistant cannot reply until Meta Business AI hands the conversation over to it. Which app replies to which conversation is set in the Conversation routing settings in Meta Business Suite.
 
 We cover the rules on the WhatsApp side separately in our post on [rules for AI assistants on WhatsApp](/en/blog/whatsapp-ai-assistant-rules).
 
@@ -93,6 +95,7 @@ The last item is the only way to see what has changed after set-up. If you start
 
 - Meta for Developers, "Send Messages", Instagram API with Instagram Login: [developers.facebook.com](https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api)
 - Meta for Developers, "Messenger Platform and IG Messaging API policy": [developers.facebook.com](https://developers.facebook.com/documentation/business-messaging/messenger-platform/policy)
+- Meta for Developers, "Conversation Routing for Instagram", Instagram Messaging: [developers.facebook.com](https://developers.facebook.com/documentation/business-messaging/instagram-messaging/features/conversation-routing)
 - Meta for Developers, "Template fundamentals", WhatsApp Business Platform: [developers.facebook.com](https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/overview)
 - WhatsApp Business Messaging Policy, WhatsApp: [whatsappbusiness.com](https://whatsappbusiness.com/policy/)
 - Hallsworth et al., "Stating Appointment Costs in SMS Reminders Reduces Missed Hospital Appointments: Findings from Two Randomised Controlled Trials", PLOS ONE, 2015: [journals.plos.org](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0137306)
